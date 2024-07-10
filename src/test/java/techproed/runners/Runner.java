@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)//cucumber ile junitin entegre olmasini saglayarak senaryolarimizi calistirmaya yarar
 @CucumberOptions(// bu notasyon sayesinde hangi senaryolari calistiracagimizi ve hangi raporlari alacagimizi ayarlariz
         plugin = {
+
                 "pretty",//console da scenario lar hakkinda ayrintili bilgi verir.
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json" ,
